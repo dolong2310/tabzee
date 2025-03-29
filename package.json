@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "minify": "terser src/tabzee.js -o tabzee.min.js && csso src/tabzee.css -o tabzee.min.css"
+  },
+  "dependencies": {
+    "csso-cli": "^4.0.2",
+    "terser": "^5.39.0"
+  }
+}
